@@ -9,6 +9,7 @@ public class Main {
         myLinkedList.getHead();
         myLinkedList.getTail();
         myLinkedList.append(6);
+        myLinkedList.prepend(8);
         myLinkedList.getLength();
 
         System.out.println("\nLinked List:");
@@ -16,6 +17,9 @@ public class Main {
 
         myLinkedList.removeLast();
         myLinkedList.removeLast();
+        myLinkedList.printList();
+
+        myLinkedList.removeFirst();
         myLinkedList.printList();
 
 
